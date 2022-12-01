@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family:arial;
+}
+
+body{
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+    top:20%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    color:blue
+}
+
+.page{
+   
+    height: 320px;
+    width:420px;
+    border:1px solid black;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   position: absolute;
+   border-radius:10px;
+   background-color: white;
+   border:none;
+}
+.page p{
+  text-align:center;
+  padding:10px;
+
+}
+.page input[type="email"],input[type="password"]{
+    height:40px;
+    width:350px;
+    margin: 10px auto 10px 30px;
+    outline:none;
+
+}
+.page input[type="submit"]{
+    width:355px;
+    height:40px;
+    margin:10px auto 10px 30px;
+    background:blue;
+    color:white;
+}
+.page a{
+    margin:5px 3px 3px 50px;
+    
+}
